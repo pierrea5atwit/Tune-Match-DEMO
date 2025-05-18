@@ -1,6 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 :root {
   --foreground-rgb: 255, 255, 255;
@@ -15,4 +15,12 @@ body {
     rgb(var(--background-start-rgb)),
     rgb(var(--background-end-rgb))
   );
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
 } 
